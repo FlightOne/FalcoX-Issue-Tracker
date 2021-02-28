@@ -8,26 +8,27 @@ assignees: ''
 ---
 
 **Version**
-What version are you using, ex. 10.0.6.2804, can be found at boot up or in configurator
+Version 10.1.0.5334 |10.1 Alpha 17|
 
 **Target**
-What target are you using ex. Revolt
+omnibusf4sd
 
 **Describe the bug**
-A clear and concise description of what the bug is.
+FC wont comunicate with TX after initial setup using Frsky rxsr: after first reboot of a succesfull setup,
+in configuration-serial tab uart 6 is detected as inv s-bus, but arming, entering osd ect is not working.
 
 **To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+1. connect rxsr reciever to: 5v, ground, rx6.
+2. bind to TX
+3. flash latest bootloader and Falco-x firmware.
+4. initial setup
+5. see error
 
 **Expected behavior**
-A clear and concise description of what you expected to happen.
+full comunication with the flight controller.
 
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
 **Additional context**
-Add any other context about the problem here.
+using LANRC flight controller.
